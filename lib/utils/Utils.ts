@@ -27,7 +27,7 @@ export async function checkVersion(): Promise<void> {
             const localVersion: string = localPackageJson.version;
 
             if (localVersion === repoVersion) {
-                Base.logger.log("Your project is up to date!", { preset: "versionCheck" });
+                Base.logger.log("Your project is up to date!", "versionCheck");
             } else {
                 Base.logger.log(`Your Project is Outdated! New version ${repoVersion} released on GitHub!`, "versionCheck");
             };
