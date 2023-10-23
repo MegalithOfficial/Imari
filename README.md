@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/MegalithOfficial/Typescript-discord-bot-Template">
-    <img src="https://raw.githubusercontent.com/MegalithOfficial/Typescript-discord-bot-Template/main/Images/imari.jpg" alt="Imari" style="border-radius: 50%;" width="200" height="200">
+    <img src="https://raw.githubusercontent.com/MegalithOfficial/Typescript-discord-bot-Template/main/Images/imari.jpg" alt="Imari" style="border-radius: 10px;" width="300" height="300">
   </a>
 </p>
 
