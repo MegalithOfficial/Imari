@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/MegalithOfficial/Typescript-discord-bot-Template">
-    <img src="https://raw.githubusercontent.com/MegalithOfficial/Typescript-discord-bot-Template/main/Images/imari.jpg" alt="Your Bot Logo" style="border-radius: 50%;">
+    <img src="https://raw.githubusercontent.com/MegalithOfficial/Typescript-discord-bot-Template/main/Images/imari.png" alt="Imari" style="border-radius: 50%;" width="300" height="300">
   </a>
 </p>
 
