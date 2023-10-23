@@ -29,8 +29,6 @@ Before you start using this template, make sure you have the following:
 - **Node.js:** You should have Node.js installed on your machine. Download it from [nodejs.org](https://nodejs.org/).
 - **Knowledge:** You need to know TypeScript/JavaScript to effectively work with this template.
 
-Certainly, you can integrate the instructions for installing TypeScript globally into the "Installation" section of your README. Here's the updated section:
-
 ## Installation
 
 To use this template to create your own Discord bot, follow these steps:
