@@ -1,0 +1,35 @@
+{
+  "name": "typescript-discord-bot-template",
+  "version": "1.0.0",
+  "description": "Simple, fast and easy to use discord.js Typescript bot template.",
+  "main": "src/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "ts-node lib/main.ts --development",
+    "build": "tsc",
+    "start": "node src/main.js --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegalithOffical/Typescript-discord-bot-Template.git"
+  },
+  "author": "MegalithOffical",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MegalithOffical/Typescript-discord-bot-Template/issues"
+  },
+  "homepage": "https://github.com/MegalithOffical/Typescript-discord-bot-Template#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.5"
+  },
+  "dependencies": {
+    "@sapphire/bitfield": "^1.2.0",
+    "@sapphire/shapeshift": "^3.9.3",
+    "clog-utils": "^1.1.1",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "glob": "^10.3.10"
+  }
+}
