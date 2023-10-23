@@ -119,9 +119,4 @@ If you'd like to contribute to this project, please create a fork, make your cha
 
 This project is licensed under the [Apache 2.0 License](LICENSE).
 
-## Acknowledgments
-
-- [Discord.js](https://discord.js.org/): The library used for Discord bot development.
-- Typescript and Javascript: The core programming languages that power this template.
-
 🤖 Happy bot building!
