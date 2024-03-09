@@ -1,6 +1,6 @@
 {
   "name": "typescript-discord-bot-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple, fast and easy to use discord.js Typescript bot template.",
   "main": "src/main.js",
   "directories": {
