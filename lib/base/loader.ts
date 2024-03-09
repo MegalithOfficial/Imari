@@ -5,7 +5,6 @@ import { Client } from "./client";
 import EventEmitter from "node:events";
 import { commands as commandsCollection, events as eventCollection } from '../utils/Utils';
 
-
 export class Loader extends EventEmitter {
     client: Client;
     commandPath: string;

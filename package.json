@@ -29,7 +29,7 @@
     "@sapphire/shapeshift": "^3.9.3",
     "clog-utils": "^1.1.1",
     "discord.js": "^14.13.0",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.4.5",
     "glob": "^10.3.10"
   }
 }

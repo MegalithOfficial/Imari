@@ -1,4 +1,4 @@
-import { ContextMenuCommandBuilder, RESTPostAPIApplicationCommandsJSONBody, RESTPostAPIContextMenuApplicationCommandsJSONBody, SlashCommandBuilder, Client, ChatInputCommandInteraction, Guild, GuildMember } from "discord.js";
+import { ContextMenuCommandBuilder, RESTPostAPIApplicationCommandsJSONBody, RESTPostAPIContextMenuApplicationCommandsJSONBody, SlashCommandBuilder, Client, ChatInputCommandInteraction, Guild, GuildMember, SlashCommandSubcommandsOnlyBuilder } from "discord.js";
 import { Client as C } from "../base/client"
 import { s } from "@sapphire/shapeshift";
 import { Core } from "./Core"
@@ -32,9 +32,7 @@ export class Command extends Core {
         this.data = {} as RESTPostAPIApplicationCommandsJSONBody | RESTPostAPIContextMenuApplicationCommandsJSONBody;
     };
 
-    set(data: SlashCommandBuilder | ContextMenuCommandBuilder) {
-        if (!(data instanceof SlashCommandBuilder) && !(data instanceof ContextMenuCommandBuilder)) C.logger.error(new InvalidBuilder({ message: `${data} is not a Command builder.` }));
-
+    set(data: CommandData) {
         if (this.name) data.setName(this.name);
         if (this.description && data instanceof SlashCommandBuilder) data.setDescription(this.description);
 
@@ -79,3 +77,5 @@ export interface DefaultOptionParams {
     member: GuildMember;
     client: Client;
 };
+
+type CommandData = Omit<SlashCommandBuilder, "addSubcommand" | "addSubcommandGroup"> | SlashCommandSubcommandsOnlyBuilder;
