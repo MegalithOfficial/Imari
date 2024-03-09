@@ -2,11 +2,8 @@ import { Client as BaseClient, IntentsBitField as Intents, Partials, ClientOptio
 import { enumToObject } from "@sapphire/bitfield";
 import { s } from "@sapphire/shapeshift";
 import { clogUtils } from "clog-utils";
-import { config } from "dotenv";
 import { Loader } from "./loader";
 import { checkVersion } from "../utils/Utils";
-
-config({ override: true, encoding: "utf8" });
 
 export class Client extends BaseClient {
     static logger: clogUtils;
@@ -76,5 +73,3 @@ export class Client extends BaseClient {
 
     };
 };
-
-new Client().start();
