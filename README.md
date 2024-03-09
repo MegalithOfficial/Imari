@@ -21,6 +21,7 @@
 - 🧭 Command handling and event registration.
 - ⚙️ Customizable settings for your bot.
 - 📖 Easy-to-follow documentation.
+- 🌐 Seamlessly scalable with Discord.js Sharding included.
 
 ## Prerequisites
 
@@ -57,6 +58,8 @@ To use this template to create your own Discord bot, follow these steps:
 
    ```env
    TOKEN=your_bot_token
+   SHARDING=false
+   TOTALSHARDS=AUTO
    ```
 
 By following these steps, you'll have your project set up and ready to configure your Discord bot.
