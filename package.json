@@ -22,13 +22,13 @@
   },
   "homepage": "https://github.com/MegalithOffical/Typescript-discord-bot-Template#readme",
   "devDependencies": {
-    "@types/node": "^20.8.5"
+    "@types/node": "^20.11.25"
   },
   "dependencies": {
-    "@sapphire/bitfield": "^1.2.0",
-    "@sapphire/shapeshift": "^3.9.3",
-    "clog-utils": "^1.1.1",
-    "discord.js": "^14.13.0",
+    "@sapphire/bitfield": "^1.2.2",
+    "@sapphire/shapeshift": "^3.9.6",
+    "clog-utils": "^2.0.1",
+    "discord.js": "^14.14.1",
     "dotenv": "^16.4.5",
     "glob": "^10.3.10"
   }
